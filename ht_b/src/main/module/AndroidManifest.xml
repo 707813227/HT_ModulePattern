@@ -2,6 +2,12 @@
     package="com.ht.ht_b">
 
     <application>
-        <activity android:name=".B_Activity"></activity>
+        <activity android:name=".B_Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 </manifest>
