@@ -1,0 +1,2 @@
+include ':app', ':ht_lib', ':ht_main', ':ht_a', ':ht_b'
+rootProject.name='HTModulePattern'
