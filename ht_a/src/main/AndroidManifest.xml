@@ -1,7 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.ht.ht_a">
 
-    <application>
+    <application
+        android:theme="@style/AppTheme">
         <activity android:name="com.ht.ht_a.A_Activity"></activity>
     </application>
 </manifest>
